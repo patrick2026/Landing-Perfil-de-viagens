@@ -10,7 +10,7 @@ nav ul {
   list-style: none; /*tirando o pontinho da lista*/
   display: flex; /*elemento ao lado do outro*/
   align-items: center; /*EIXO PRINCIPAL, ALINHAMENTO DOS ELEMENTO*/
-  gap: 20px; /*espaço entre os elementos*/
+  gap: 24px; /*espaço entre os elementos*/
   padding-block: 8px; /*VAI OLHAR PARA EIXO Y, ESPAÇO DE CIMA E DEBAIXO */
 }
 
