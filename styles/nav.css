@@ -1,0 +1,22 @@
+nav {
+  display: flex; /*elemento ao lado do outro*/
+  justify-content: space-between; /*DANDO ESPAÇO ESTRE AS CAIXAS (ELEMENTO)*/
+  align-items: center; /*EIXO PRINCIPAL, ALINHAMENTO DOS ELEMENTO*/
+  line-height: 0; /*TIRANDO ESPAÇO EXTRA QUE EXISTE*/
+  padding-block: 20px; /*VAI OLHAR PARA EIXO Y, ESPAÇO DE CIMA E DEBAIXO */
+}
+
+nav ul {
+  list-style: none; /*tirando o pontinho da lista*/
+  display: flex; /*elemento ao lado do outro*/
+  align-items: center; /*EIXO PRINCIPAL, ALINHAMENTO DOS ELEMENTO*/
+  gap: 20px; /*espaço entre os elementos*/
+  padding-block: 8px; /*VAI OLHAR PARA EIXO Y, ESPAÇO DE CIMA E DEBAIXO */
+}
+
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover; /*ele vai enqudra minha imagens da forma certa que peguei do celular*/
+  border-radius: 50%;
+}
