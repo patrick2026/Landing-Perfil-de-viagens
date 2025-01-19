@@ -1,5 +1,6 @@
 header {
   padding-block: 32px; /*VAI OLHAR PARA EIXO Y, ESPAÇO DE CIMA E DEBAIXO */
+  font: var(--text-md);
 }
 
 header .container {
@@ -27,10 +28,6 @@ header .container {
   font: var(--text-lg);
   color: var(--text-color-primary);
   margin-bottom: 8px; /*margim de baixo, separando os elementos*/
-}
-
-#profile p {
-  font: var(--text-md);
 }
 
 #info {

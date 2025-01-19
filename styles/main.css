@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  flex-wrap: wrap; /*vai fazer as fotos ocuparem o espaço disponivel*/
+  gap: 24px;
+  padding-block: 24px;
+}
+main img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+}
