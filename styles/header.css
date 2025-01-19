@@ -1,0 +1,48 @@
+header {
+  padding-block: 32px; /*VAI OLHAR PARA EIXO Y, ESPAÇO DE CIMA E DEBAIXO */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /*separando doi texto ao meio um ao lado esquerdo oudo no direito*/
+  align-items: center;
+}
+
+#profile {
+  display: flex; /*um cara ao lado do outro*/
+
+  gap: 32px; /*espaço entre os elementos*/
+}
+#profile img[alt="imagem de Patrick Ventura"] {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#profile > div {
+  max-width: 384px;
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px; /*margim de baixo, separando os elementos*/
+}
+
+#profile p {
+  font: var(--text-md);
+}
+
+#info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 280px; /*tamanho da caixa de cada li*/
+}
+
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
