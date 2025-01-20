@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-/*o que eu colocar aqui vai refletir em todo projeto*/
 :root {
   --brand-color: #ef5f4c;
   --shape-transparency: #ffffff90;
@@ -29,22 +28,19 @@ body {
 }
 
 a {
-  text-decoration: none; /*tirando o anderlaine*/
-  color: inherit; /*o navegador colocou azul, eu tiro o azul e busco a cor do pai dele body*/
+  text-decoration: none;
+  color: inherit;
 }
 a:hover {
-  /*quando eu passar o mause encima*/
   color: var(--brand-color);
-  text-decoration: underline; /*colocando underline*/
+  text-decoration: underline;
 }
 .container {
-  /*vai aplicar 32px na laterais do projeto, lado esquerdo e direito*/
-  padding-inline: 32px; /*um elemento, so vale para laterais*/
-  max-width: 1280px; /*largura maxima*/
+  padding-inline: 32px;
+  max-width: 1280px;
   margin-inline: auto;
 }
 
 .bg-surface-color {
   background-color: var(--surface-color);
 }
-/**/
